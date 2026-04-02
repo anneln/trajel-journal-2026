@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   font-family: Inter;
+  color: #2b283a;
 }
 
 header {
@@ -26,10 +27,19 @@ h1 {
 }
 
 /*Entry*/
+
+article {
+  width: 100%;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
+  max-width: 1200px;
+  width: 100%;
   margin: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f5f5f5;
 }
 
 .img-container {
@@ -47,9 +57,52 @@ h1 {
   object-fit: cover;
 }
 
+.marker {
+  width: 7px;
+  height: 9.545px;
+}
+
 .location-infos {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
+}
+
+.location,
+.date,
+.description {
+  font-size: 0.64rem;
+}
+
+.location,
+.description {
+  font-weight: 400;
+}
+
+.location {
+  text-transform: uppercase;
+  letter-spacing: 1.741px;
+}
+
+.location-link {
+  font-size: 0.7rem;
+}
+
+.location-link:visited {
+  color: #918e9b;
+}
+
+.travel-title {
+  font-size: 1.56rem;
+  margin: 0 0 1rem 0;
+}
+
+.date,
+.travel-title {
+  font-weight: 700;
+}
+
+.description {
+  line-height: 150%; /* 15.36px */
 }

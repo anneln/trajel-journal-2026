@@ -3,7 +3,7 @@ import japan from "../src/assets/japan.png";
 
 export default function Entry() {
   return (
-    <section>
+    <article>
       <div className="container">
         <div className="img-container">
           <img src={japan} className="main-image" alt="mont fuji" />
@@ -30,6 +30,6 @@ export default function Entry() {
           </p>
         </div>
       </div>
-    </section>
+    </article>
   );
 }
