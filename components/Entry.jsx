@@ -5,7 +5,9 @@ export default function Entry() {
   return (
     <section>
       <div className="container">
-        <img src={japan} className="img-url" />
+        <div className="img-container">
+          <img src={japan} className="main-image" alt="mont fuji" />
+        </div>
         <div className="travel-infos">
           <div className="location-infos">
             <img src={marker} className="marker" />

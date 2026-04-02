@@ -1,11 +1,11 @@
 html,
 body {
-  margin: 0 auto;
+  margin: 0;
   font-family: Inter;
 }
 
 header {
-  height: 55px;
+  height: 3.43rem;
   background-color: #f55a5a;
   display: flex;
   align-items: center;
@@ -16,11 +16,40 @@ header {
 
 h1 {
   color: #fff;
-  font-size: 14.461px;
+  font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: -1.085px;
 }
 
 .logo {
   margin-right: 0.5em;
+}
+
+/*Entry*/
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.img-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 0.84rem;
+}
+
+.main-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.location-infos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
 }
