@@ -5,7 +5,6 @@ body {
 }
 
 header {
-  width: 550px;
   height: 55px;
   background-color: #f55a5a;
   display: flex;
