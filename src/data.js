@@ -19,7 +19,7 @@ export default [
   {
     id: 2,
     img: {
-      src: { japan },
+      src: "./assets/japan.png",
       alt: "Mount Fuji",
     },
     title: "Mount Fuji",
