@@ -1,13 +1,13 @@
-import japan from "./assets/japan.png";
 import sydney from "./assets/Sydney.png";
 import norway from "./assets/Norway.png";
 import brussels from "./assets/Brussels.png";
+import japan from "./assets/japan.png";
 
 export default [
   {
     id: 1,
     img: {
-      src: { brussels },
+      src: brussels,
       alt: "Town hall Brussels",
     },
     title: "Brussels",
@@ -19,7 +19,7 @@ export default [
   {
     id: 2,
     img: {
-      src: "./assets/japan.png",
+      src: japan,
       alt: "Mount Fuji",
     },
     title: "Mount Fuji",
@@ -31,7 +31,7 @@ export default [
   {
     id: 3,
     img: {
-      src: { sydney },
+      src: sydney,
       alt: "Sydney Opera House",
     },
     title: "Sydney Opera House",
@@ -43,7 +43,7 @@ export default [
   {
     id: 4,
     img: {
-      src: { norway },
+      src: norway,
       alt: "Geirangerfjord",
     },
     title: "Geirangerfjord",
