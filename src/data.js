@@ -1,7 +1,7 @@
-import japan from "./src/assets/japan.png";
-import sydney from "./src/assets/Sydney.png";
-import norway from "./src/assets/Norway.png";
-import brussels from "./src/assets/Brussels.png";
+import japan from "./assets/japan.png";
+import sydney from "./assets/Sydney.png";
+import norway from "./assets/Norway.png";
+import brussels from "./assets/Brussels.png";
 
 export default [
   {
