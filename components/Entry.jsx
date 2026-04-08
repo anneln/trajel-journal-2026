@@ -11,7 +11,7 @@ export default function Entry(props) {
             <p className="location">{props.country}</p>
             <a
               className="location-link"
-              href="https://maps.app.goo.gl/YxzD76dWkM2kPvLo6"
+              href={props.googleMapsLink}
               target="_blank"
               rel="noopener"
             >
