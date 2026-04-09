@@ -20,5 +20,9 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Technical Requirements
 
 - [x] Follow a Figma design gave by Scrimba
+- [x] Use Vite
 - [x] Data driven React
 - [x] Spread object as props
+- [x] Deploy on Netlify
+
+See [Travel Journal](https://carnetvoyages.netlify.app/)
