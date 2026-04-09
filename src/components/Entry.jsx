@@ -1,3 +1,5 @@
+import marker from "../assets/marker.png";
+
 export default function Entry(props) {
   return (
     <article>
@@ -7,7 +9,7 @@ export default function Entry(props) {
         </div>
         <div className="travel-infos">
           <div className="location-infos">
-            <img src="../src/assets/marker.png" className="marker" />
+            <img src={marker} className="marker" />
             <p className="location">{props.country}</p>
             <a
               className="location-link"
