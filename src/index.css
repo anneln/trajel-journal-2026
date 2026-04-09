@@ -15,9 +15,6 @@ header {
   color: #fff;
   font-weight: 500;
   width: 100%;
-}
-
-header > div {
   max-width: 1200px;
   height: 3.43rem;
   margin: 0 auto;
@@ -100,9 +97,10 @@ article {
 
 .location-link {
   font-size: 0.7rem;
+  color: #2b283a;
 }
 
-.location-link:visited {
+.location-link a:visited {
   color: #918e9b;
 }
 
